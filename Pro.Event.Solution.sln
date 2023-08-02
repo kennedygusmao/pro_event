@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{77DF66C2-425E-442C-B745-961ECC8D008F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{F8347177-C812-45AE-9E88-8D5B85FC07FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96E673FB-9363-45E1-9A46-68F5DEFE2191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EF6E65E6-2DC2-4071-80EC-6A56970EC8B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF6E65E6-2DC2-4071-80EC-6A56970EC8B1} = {77DF66C2-425E-442C-B745-961ECC8D008F}
+		{96E673FB-9363-45E1-9A46-68F5DEFE2191} = {77DF66C2-425E-442C-B745-961ECC8D008F}
+	EndGlobalSection
+EndGlobal
