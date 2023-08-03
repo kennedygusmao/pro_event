@@ -17,10 +17,11 @@ public class UnitTest1
             TemperatureC= 22
         };
 
-        var weather = new WeatherForecast("Teste", validDate.TemperatureC);
+        var weather = new WeatherForecast("Teste", 21);
 
          Assert.NotNull(weather);
          Assert.Equal(validDate.Summary, weather.Summary);
+        Assert.Equal(validDate.TemperatureC, weather.TemperatureC);
 
     }
 }
